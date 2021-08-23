@@ -8,10 +8,14 @@ Feature: Academy Choucair
     Scenario: Search for an automation course
         Given than Rose wants to learn automation at the academy Choucair
         | strUser   | strPassword   |
-        | TuUsuario | TuClave       |
+        | <strUser> | <strPassword> |
         When she search for the course on the choucair academy platform
-        | strCourse                 |
-        | Metodología Bancolombia   |
+        | strCourse    |
+        | <strCourse>  |
         Then she finds the course called
-        | strCourse                 |
-        | Metodología Bancolombia   |
+        | strCourse    |
+        | <strCourse>  |
+
+        Examples:
+        | strUser   | strPassword   | strCourse              |
+        | 1094941992| Choucair2021* | Metodología Bancolombia|
