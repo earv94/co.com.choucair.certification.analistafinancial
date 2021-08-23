@@ -13,4 +13,6 @@ public class SearchCoursePage extends PageObject {
             .located(By.xpath("//*[@id=\"coursesearch\"]/fieldset/button"));
     public static final Target SELECT_COURSE = Target.the("Da click para seleccionar el curso")
             .located(By.xpath("/html/body/div[2]/div[2]/div/div/div/section/div/div/div[1]/h4/a"));
+    public static final Target NAME_COURSE = Target.the("Extrae el nombre del curso")
+            .located(By.xpath("//*[@id=\"page-header\"]/div/div/div[2]/div[1]/div[1]/a/div/div/h1"));
 }
