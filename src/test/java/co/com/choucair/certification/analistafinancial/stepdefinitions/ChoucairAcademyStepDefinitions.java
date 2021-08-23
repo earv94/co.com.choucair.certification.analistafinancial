@@ -25,8 +25,8 @@ public class ChoucairAcademyStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
     }
 
-    @Then("^he finds the course called resources Recursos Automatizacion Bancolombia$")
-    public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia() {
+    @Then("^he finds the course called resources Foundation Express$")
+    public void heFindsTheCourseCalledResourcesFoundationExpress() {
 
     }
 
