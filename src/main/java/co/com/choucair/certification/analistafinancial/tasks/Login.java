@@ -26,6 +26,6 @@ public class Login implements Task {
                 Enter.theValue(strUser).into(ChoucairLoginPage.INPUT_USER),
                 Enter.theValue(strPassword).into(ChoucairLoginPage.INPUT_PASSWORD),
                 Click.on(ChoucairLoginPage.SUBMIT_BUTTON)
-                );
+        );
     }
 }
