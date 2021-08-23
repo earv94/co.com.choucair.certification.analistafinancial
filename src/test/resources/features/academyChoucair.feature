@@ -3,7 +3,7 @@
 
 @stories
 Feature: Academy Choucair
-    As a user, I want to learn how to automate in screamplay at the Choucair Academy with the automation course
+    As a user, I want to learn how to automate in screenplay at the Choucair Academy with the automation course
     @scenario1
     Scenario: Search for an automation course
         Given than Rose wants to learn automation at the academy Choucair
@@ -17,5 +17,5 @@ Feature: Academy Choucair
         | <strCourse>  |
 
         Examples:
-        | strUser   | strPassword   | strCourse              |
-        | 1094941992| Choucair2021* | Metodología Bancolombia|
+        | strUser   | strPassword   | strCourse             |
+        | 1094941992| Choucair2021* | Foundation Express    |
