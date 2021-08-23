@@ -7,5 +7,11 @@ Feature: Academy Choucair
     @scenario1
     Scenario: Search for an automation course
         Given than brandon wants to learn automation at the academy Choucair
-        When he search for the course Foundation Express on the choucair academy platform
-        Then he finds the course called resources Foundation Express
+        | strUser   | strPassword   |
+        | 1094941992| Choucair2021* |
+        When he search for the course on the choucair academy platform
+        | strCourse             |
+        | Foundation Express    |
+        Then he finds the course called resources
+        | strCourse             |
+        | Foundation Express    |
