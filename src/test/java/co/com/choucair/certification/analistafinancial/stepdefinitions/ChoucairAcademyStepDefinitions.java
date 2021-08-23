@@ -21,7 +21,7 @@ public class ChoucairAcademyStepDefinitions {
     }
 
     @When("^he search for the course (.*) on the choucair academy platform$")
-    public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(String course) {
+    public void heSearchForTheCourseFoundationExpressOnTheChoucairAcademyPlatform(String course) {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
     }
 
