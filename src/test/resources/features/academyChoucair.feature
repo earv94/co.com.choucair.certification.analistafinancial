@@ -8,10 +8,10 @@ Feature: Academy Choucair
     Scenario: Search for an automation course
         Given than brandon wants to learn automation at the academy Choucair
         | strUser       | strPassword   |
-        | 1094941992    | Choucair2021* |
+        | erojasv    | GG%2021efra |
         When he search for the course on the choucair academy platform
         | strCourse             |
-        | Foundation Express    |
+        | Foundation Level    |
         Then he finds the course called resources
         | strCourse             |
-        | Foundation Express    |
+        | Foundation Level    |
