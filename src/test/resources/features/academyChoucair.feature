@@ -11,7 +11,7 @@ Feature: Academy Choucair
         | erojasv    | GG%2021efra |
         When he search for the course on the choucair academy platform
         | strCourse             |
-        | Foundation  |
+        | Foundation Express |
         Then he finds the course called resources
         | strCourse             |
-        | Foundation   |
+        | Foundation Express  |
